@@ -1,3 +1,6 @@
-document.getElementById("num-cards").addEventListener('submit',function(event){
+document.getElementById("pokemon-form").addEventListener('submit',function(event){
     event.preventDefault();
+
+    const numCards =document.getElementById('num-cards').value 
+    
 })
