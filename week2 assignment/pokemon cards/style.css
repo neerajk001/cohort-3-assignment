@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif ,Arial, Helvetica, sans-serif;
-    background-color: #f0f4f8;
+    background: linear-gradient(120deg, #38ef7d, #11998e);
     margin: 0;
     padding: 20px;
     text-align: center;
@@ -51,8 +51,8 @@ h1{
 .pokemon-card{
     width: 150px;
     padding: 10px;
-    background-color: #fff;
-    border: 2px solid #ddd;
+    background-color: #94bbe9;
+    border: 2px ,solid darkgoldenrod;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
