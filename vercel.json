@@ -3,14 +3,14 @@
   "public": true,
   "builds": [
     {
-      "src": "COHORT 3 JAVASCRIPT PRACTISE/week2 assignment/pokemon cards/index.html",
+      "src": "cohort 3 javascript practise/week2 assignment/pokemon cards/index.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "COHORT 3 JAVASCRIPT PRACTISE/week2 assignment/pokemon cards/$1"
+      "dest": "cohort 3 javascript practise/week2 assignment/pokemon cards/$1"
     }
   ]
 }
