@@ -1,5 +1,16 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
-    ]
-  }
+  "version": 2,
+  "public": true,
+  "builds": [
+    {
+      "src": "COHORT 3 JAVASCRIPT PRACTISE/week2 assignment/pokemon cards/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "COHORT 3 JAVASCRIPT PRACTISE/week2 assignment/pokemon cards/$1"
+    }
+  ]
+}
