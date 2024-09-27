@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif ,Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+#pokemon-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#pokemon-form label{
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#pokemon-form input, #pokemon-form select{
+    padding: 5px;
+    font-size: 16px;
+}
+
+#btn{
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btn:hover{
+    background-color: #0056b3;
+}
